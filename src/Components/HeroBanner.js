@@ -53,6 +53,9 @@ function HeroBanner() {
       <FaUserLarge />
       <FaUsersRectangle className='border border-primary bg-danger p-lg-5 rounded'/>
       <LuAlignCenterVertical />
+
+
+      Welcome back to the class
     </>
   )
 }
