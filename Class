@@ -225,3 +225,47 @@ useNavigate()
 
 Props & States
 =====================
+
+Prop : properties
+
+pass the data / values
+
+arugument
+
+use it to for communication in between the components
+
+
+immutable === modify
+
+
+declaration is in the html attribute
+
+prop1== userdefined
+
+
+anytype of data u can pass : variable/value/function/number/boolean/json/component/string/object/array
+
+<tag prop1=""></tag>
+
+
+2 ways
+========
+
+1. props
+2. objects
+
+
+
+
+if(condition)
+{
+    statements;
+}
+else
+{
+    statements;
+}
+
+
+condition?if part : else part;
+

@@ -1,14 +1,15 @@
 import React from 'react';
 import {Link,NavLink} from "react-router-dom"
 
-function Navbar() {
+function Navbar(props) {
+  console.log(props)
   return (
     <div>
       
 
    <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <Link to="/home" class="navbar-brand" href="#">Navbar</Link>
+    <Link to="/home" class="navbar-brand" href="#">{props.prop1}</Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,12 +28,23 @@ function Navbar() {
   
         </li>
 
+                <li class="nav-item">
+          <Link to="/products" class="nav-link" href="#">
+            Products
+          </Link>
+  
+        </li>
+
       </ul>
  
     </div>
   </div>
 </nav>
+    {/* <p>{props.age}</p>
+    <p>{props.eligibility}</p> */}
 
+
+    {props.eligibility===true?props.age:"Not Eligible"}
 
     </div>
   )
