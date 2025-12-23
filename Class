@@ -167,5 +167,61 @@ https://www.atlassian.com/git/tutorials/install-git
 
 
 
-step1 : git init
 
+step 1 :install the git lens
+step 2: configure the git bash with github details
+step 3: create reppositary in the github
+step 4: git init in the git bash
+step 5: git status (check the status)
+step 6: git add <filename>
+step 7 : git status(check the status whether the files add or not)
+step 8 : add the commands from the github repo
+
+git commit -m "comment"
+git push origin main
+
+
+vercel
+========
+
+
+signup with github
+import the repo from github
+deploy
+
+
+npm run build : optimize the code
+
+
+react-router-dom : https://reactrouter.com/
+=====================
+
+
+external 
+internal
+inline
+
+
+
+1. BrowserRouter element
+
+
+wrap to the entire app
+
+
+2. Routes, Route,Link,NavLink
+
+
+
+Route
+=====
+1. path=""
+2. element={}
+
+
+useParams()
+useNavigate()
+
+
+Props & States
+=====================
