@@ -1,0 +1,11 @@
+.section1
+{
+    background-color: orangered;
+    list-style: none;
+    display: flex;
+}
+
+.listitems
+{
+    padding: 1em;
+}

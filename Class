@@ -1,0 +1,171 @@
+Pre-Requisities
+======================
+
+
+1. nodejs installed
+2. node & npm versions
+3. using the npx create-react-app projectname
+4. npm start
+
+
+Project - Structure
+======================
+
+
+
+components : version control github
+types of components
+styling
+props & states
+form-validation
+hooks
+api integration
+
+
+
+
+
+Components
+==================
+2 types of components
+
+1. class component
+2. functional component
+
+
+class component
+================
+
+
+js function complex typescript
+
+
+
+
+external file
+.js
+
+
+
+steps
+=====
+
+
+step 1 : class component
+
+hooks were not introduced
+
+
+class Componentname extends Component{
+    render(){
+        return(<></>);
+    }
+}
+
+
+
+function Componentname()
+{
+return(<>
+
+
+
+
+
+
+</>)
+}
+
+
+render: something / finishing the changes
+
+
+
+
+
+fragmentation
+<></>
+exporting the component is also very import
+
+
+by using the method called require
+
+
+styling
+=========
+
+
+5 ways we can customise it
+
+
+1. external stylesheet
+2. inline stylesheet
+3. js objects
+4. module
+5. styled compoenents
+
+
+6. sass/scss styling
+
+
+<tag style="propertyname:value;"></tag>
+
+background-color:value;
+
+propertyname== camelUppercase
+<tag style={{}}></tag>
+
+backgroundColor:,
+
+
+filename.module.css
+
+
+
+<!-- https://styled-components.com/ -->
+
+
+
+
+Task
+======
+
+***Watches E-commerce***
+
+
+
+
+
+
+Packages installations
+router-dom
+props & states
+
+
+
+command name 
+
+
+npm install react-icons --force
+
+
+
+
+
+React-router-dom
+================
+
+
+
+Deployment
+==========
+version control 
+
+
+
+https://www.atlassian.com/git/tutorials/install-git
+
+
+
+step1 : git init
+
